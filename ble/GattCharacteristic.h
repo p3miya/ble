@@ -93,10 +93,16 @@ public:
         UUID_TIME_WITH_DST_CHAR                           = 0x2A11,
         UUID_TIME_ZONE_CHAR                               = 0x2A0E,
         UUID_TX_POWER_LEVEL_CHAR                          = 0x2A07,
+        UUID_SENSOR_LOCATION_CHAR                         = 0x2A5D,
         UUID_CSC_FEATURE_CHAR                             = 0x2A5C,
         UUID_CSC_MEASUREMENT_CHAR                         = 0x2A5B,
+        UUID_CSC_CONTROL_POINT_CHAR                       = 0x2A55,
         UUID_RSC_FEATURE_CHAR                             = 0x2A54,
-        UUID_RSC_MEASUREMENT_CHAR                         = 0x2A53
+        UUID_RSC_MEASUREMENT_CHAR                         = 0x2A53,
+        UUID_CYCLING_POWER_MEASUREMENT_CHAR               = 0x2A63,
+        UUID_CYCLING_POWER_FEATURE_CHAR                   = 0x2A65,
+        UUID_CYCLING_POWER_VECTOR_CHAR                    = 0x2A64,
+        UUID_CYCLING_POWER_CONTROL_POINT_CHAR             = 0x2A66
     };
 
     /**
